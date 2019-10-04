@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  newArray = []
+  count = 0
+  while count < array.size
+    newArray << array[count]**2
+  return newArray
 end
